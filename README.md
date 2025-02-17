@@ -218,4 +218,4 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 </div>
 
 ---
-Made with ❤️ by novalogica in Porto, Portugal
+Made with ❤️ by [novalogica](https://novalogica.pt) in Porto, Portugal
