@@ -221,13 +221,30 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 
 ---
 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="45%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="45%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="45%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="45%"></img>
+## 📸 Gallery
 
+<div align="center">
+
+<details>
+<summary>🖼️ View Screenshot Gallery</summary>
+
+<br/>
+
+| ![HubSpot Integrator Screen 1](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true) | ![HubSpot Integrator Screen 2](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true) |
+|:---:|:---:|
+| **Initial Setup Screen** | **Configuration Dashboard** |
+
+| ![HubSpot Integrator Screen 3](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true) | ![HubSpot Integrator Screen 4](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true) |
+|:---:|:---:|
+| **Sync Configuration** | **Field Mapping Interface** |
+
+| ![HubSpot Integrator Screen 5](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true) | ![HubSpot Integrator Screen 6](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true) |
+|:---:|:---:|
+| **Advanced Settings** | **Monitoring Dashboard** |
+
+</details>
+
+</div>
 ---
 
 Made with ❤️ by novalogica in Porto, Portugal
