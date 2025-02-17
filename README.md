@@ -219,8 +219,6 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 **Website**: [novalogica.pt](https://novalogica.pt)  
 **LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
 
----
-
 ## 📸 Gallery
 
 <div align="center">
