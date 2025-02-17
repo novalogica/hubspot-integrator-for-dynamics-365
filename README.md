@@ -28,6 +28,7 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 ## 🌟 Key Features
 
 ### Core Capabilities
+
 - **Universal Table Synchronization**: Sync any standard or custom table between platforms with comprehensive field mapping support
 - **Flexible Sync Directions**: Configure one-way or bidirectional synchronization per table
 - **Real-Time Updates**: Instantaneous data propagation with configurable sync intervals
@@ -37,6 +38,7 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 - **Intuitive Setup**: User-friendly interface for quick and easy configuration.
 
 ### Business Benefits
+
 - **Improved Data Accuracy**: Eliminate manual data entry and reduce errors
 - **Enhanced Productivity**: Automate data synchronization across platforms
 - **Better Decision Making**: Access consistent, up-to-date information across systems
@@ -46,21 +48,25 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 ## 📋 System Requirements
 
 ### Prerequisites
+
 - Microsoft Dynamics 365 environment
 - HubSpot account with API access (Marketing, Sales, or Service Hub)
 
 ## 🚀 Quick Start Guide
 
 ### 1. Installation
+
 1. Download the latest release: [Download](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/releases)
 2. Import to your D365 Environment
 
 ### 2. Initial Setup
+
 1. Access the HubSpot Integrator app in your Dynamics 365 environment
 2. Configure your HubSpot API Key
-4. Verify the connection status
+3. Verify the connection status
 
 ### 3. Configure Your First Sync
+
 1. Go to "Get Started."
 2. Choose the table that you want to sync.
 3. Select "Continue."
@@ -71,6 +77,7 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 ## ⚙️ Advanced Configuration
 
 ### Table Sync JSON Example
+
 ```json
 {
   "d365Table": "contact",
@@ -174,11 +181,14 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 ## 🔍 Troubleshooting Guide
 
 ### Common Issues
+
 1. **Connection Failures**
+
    - Verify API key validity
    - Check network connectivity
 
 2. **Sync Errors**
+
    - Review field mapping compatibility
    - Check for required field values
    - Verify record ownership permissions
@@ -186,24 +196,37 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 3. **Performance Issues**
    - Optimize batch sizes
    - Adjust sync frequencies
+
 ## 📈 Performance Optimization
 
 ### Best Practices
+
 - Use batch processing for large datasets
 - Implement efficient filtering
 - Monitor system resources
 
 ### Monitoring Tools
+
 - Real-time sync status monitoring
 - Detailed error logging
 
-## 📞 Support 
+## 📞 Support
 
 ### Contact Information
+
 **Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal  
 **Email**: info@novalogica.pt  
 **Website**: [novalogica.pt](https://novalogica.pt)  
 **LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
+
+---
+
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="15%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="15%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="15%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="15%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="15%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="15%"></img>
 
 ---
 
