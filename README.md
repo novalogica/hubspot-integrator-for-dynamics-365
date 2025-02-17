@@ -221,12 +221,12 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 
 ---
 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="50%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="50%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="50%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="50%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="50%"></img> 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="50%"></img>
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="45%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="45%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="45%"></img> 
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="45%"></img>
 
 ---
 
