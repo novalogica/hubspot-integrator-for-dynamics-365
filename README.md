@@ -64,20 +64,28 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 1. Access the HubSpot Integrator app in your Dynamics 365 environment
 2. Configure your HubSpot API Key
 3. Verify the connection status
-<div align="center">
 
+<div align="center">
 <img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img>
 <img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img>
-
 </div>
+
 ### 3. Configure Your First Sync
 
 1. Go to "Get Started."
 2. Choose the table that you want to sync.
+
+<div align="center">
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="100%"></img>
+</div>
+
 3. Select "Continue."
 4. Click "Create Configurations."
 5. Once the syncs are successfully created, click "Done."
 6. If you want to map custom fields, edit the table sync. Otherwise, activate the table sync.
+<div align="center">
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-7.png?raw=true" width="100%"></img>
+</div>
 
 ## ⚙️ Advanced Configuration
 
