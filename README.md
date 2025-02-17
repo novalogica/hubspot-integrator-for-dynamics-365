@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/github/v/release/novalogica/hubspot-integrator-for-dynamics-365include_prereleases&sort=date&display_name=release&style=plastic)](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/novalogica/hubspot-integrator-for-dynamics-365)](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/releases/tag/1.0.0)
 
 [![Dataverse](https://img.shields.io/badge/Dataverse-gray)](#)
 [![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?logo=hubspot&logoColor=fff)](#)
