@@ -20,10 +20,7 @@
 
 ## 🎯 Overview
 
-Our HubSpot Integrator for Dynamics 365 is designed to streamline and optimize your processes by enabling seamless data synchronization
-between Dataverse and HubSpot. Unlike other offerings, our solution offers unmatched flexibility and customization, allowing you to sync
-any table, standard or custom, and create custom mappings, supporting any data type columns. Whether you need one-way or two-way
-synchronization, our intuitive interface ensures a quick and easy setup.
+Our HubSpot Integrator for Dynamics 365 **(Beta)** is designed to streamline and optimize your processes by enabling seamless data synchronization between Dataverse and HubSpot. Unlike other offerings, our solution offers unmatched flexibility and customization, allowing you to sync any tables, standard or custom, and create custom mappings, supporting any data type columns. Whether you need one-way or two-way synchronization, our intuitive interface ensures a quick and easy setup. As part of our commitment to continuous improvement, this solution is currently in **beta release**, allowing early access to these powerful integration capabilities while we refine and enhance the features based on user feedback.
 
 ## 🌟 Key Features
 
