@@ -43,162 +43,15 @@ Our HubSpot Integrator for Dynamics 365 **(Beta)** is designed to streamline and
 - **Reduced Integration Costs**: Eliminate the need for custom development or third-party services
 - **Quick Time-to-Value**: Intuitive setup process and ready-to-use configurations
 
-## 📋 System Requirements
+## 📑 Documentation
 
-### Prerequisites
+For detailed information about setup, configuration, and usage, please refer to our [Wiki Documentation](./wiki/Home.md), which includes:
 
-- Microsoft Dynamics 365 environment
-- HubSpot account with API access (Marketing, Sales, or Service Hub)
-
-## 🔐 Security Roles
-
-### Required Roles
-
-To use the HubSpot Integrator app, users must have one of the following security roles:
-
-- `System Administrator`
-- `System Customizer`
-- `[ADMIN] - HubSpot Integrator App `
-
-This ensures proper access control and maintains system security while allowing authorized users to configure and manage the integration.
-
-### Role Permissions
-
-The [ADMIN] - HubSpot Integrator App role includes necessary permissions for:
-
-- Configuring sync settings
-- Managing table mappings
-- Monitoring sync status
-- Viewing error logs
-- Importing/Exporting configurations
-
-## 🚀 Quick Start Guide
-
-### 1. Installation
-
-1. Download the latest version: [![GitHub Release](https://img.shields.io/github/v/release/novalogica/hubspot-integrator-for-dynamics-365)](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/releases)
-2. Import to your D365 Environment
-
-### 2. Initial Setup
-
-1. Access the HubSpot Integrator app in your Dynamics 365 environment
-2. Configure your HubSpot API Key
-3. Verify the connection status
-
-<div align="center">
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img>
-</div>
-
-### 3. Configure Your First Sync
-
-1. Go to "Get Started."
-2. Choose the table that you want to sync.
-
-<div align="center">
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="100%"></img>
-</div>
-
-3. Select "Continue."
-4. Click "Create Configurations."
-5. Once the syncs are successfully created, click "Done."
-6. If you want to map custom fields, edit the table sync. Otherwise, activate the table sync.
-<div align="center">
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-7.png?raw=true" width="100%"></img>
-</div>
-
-## ⚙️ Import/Export Functionality
-
-Save time by exporting and importing your configurations between environments. You can:
-
-- Export all table sync configurations at once
-- Export individual table sync configurations
-- Import configurations into any Dynamics 365 environment
-
-This feature is particularly useful for:
-
-- Migrating configurations from development to production environments
-- Creating backups of your sync settings
-- Maintaining consistent configurations across multiple instances
-<div align="center">
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-8.png?raw=true" width="100%"></img>
-</div>
-
-### Table Sync JSON Example
-
-Below is an example of an exported table sync configuration that can be imported into the system:
-
-```json
-{
-  "d365Table": "contact",
-  "hubspotTable": "contacts",
-  "batchSize": 100,
-  "integrationDirection": {
-    "value": 1,
-    "name": "➡️ Dataverse to HubSpot"
-  },
-  "attributeMappings": [
-    {
-      "attributes": {
-        "d365": {
-          "displayName": null,
-          "logicalName": "firstname",
-          "dataType": "String",
-          "options": null
-        },
-        "hubspot": {
-          "displayName": null,
-          "logicalName": "firstname",
-          "dataType": "text",
-          "options": null
-        },
-        "isMatchingKey": false,
-        "associationLabel": null,
-        "defaultValue": null
-      },
-      "valueMappings": []
-    },
-    {
-      "attributes": {
-        "d365": {
-          "displayName": null,
-          "logicalName": "lastname",
-          "dataType": "String",
-          "options": null
-        },
-        "hubspot": {
-          "displayName": null,
-          "logicalName": "lastname",
-          "dataType": "text",
-          "options": null
-        },
-        "isMatchingKey": false,
-        "associationLabel": null,
-        "defaultValue": null
-      },
-      "valueMappings": []
-    }
-  ],
-  "dataFilter": {
-    "filterGroups": [
-      {
-        "filters": [
-          {
-            "propertyName": "hs_lead_status",
-            "operator": "NEQ",
-            "value": "OPEN_DEAL"
-          }
-        ]
-      }
-    ]
-  },
-  "viewFilter": {
-    "id": "a7405842-e116-4c5e-b1a2-3b075997f4c3",
-    "name": "Active Contacts",
-    "fetchXML": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" savedqueryid=\"00000000-0000-0000-00aa-000010001004\"><entity name=\"contact\"><attribute name=\"fullname\" /><order attribute=\"fullname\" descending=\"false\" /><attribute name=\"parentcustomerid\" /><filter type=\"and\"><condition attribute=\"statecode\" operator=\"eq\" value=\"0\" /></filter><attribute name=\"telephone1\" /><attribute name=\"emailaddress1\" /><attribute name=\"contactid\" /></entity></fetch>"
-  }
-}
-```
+- [Detailed Quick Start Guide](./wiki/Quick-Start-Guide.md)
+- [Security Roles and Permissions ](./wiki/Security-Roles.md)
+- [Import/Export Functionality](./wiki/Import-Export-Guide.md)
+- [Troubleshooting Guide](./wiki/Troubleshooting-Guide.md)
+- [Performance Optimization Tips](./wiki/Performance-Optimization.md)
 
 ## ⚠️ Important Notes
 
@@ -230,60 +83,18 @@ When a HubSpot contact record synchronizes with a Dynamics 365 lead, an automate
    - A new opportunity is automatically created
    - Existing campaign associations are preserved
 
-5. **Record Link Updates**
-   The HubSpot-Dataverse record link is updated to reference the new contact instead of the original lead, ensuring future synchronizations update the correct record.
-
-### Error Handling
-
-The system implements robust error management:
-
-- Each step is logged in the integration log with detailed status information
-- If any step fails, the system maintains the original record link with error details
-- Failed qualifications are marked as "Partially Successful" in the integration log
-- The integration continues to attempt synchronization of other records even if one fails
-
-## 🔍 Troubleshooting Guide
-
-### Common Issues
-
-1. **Connection Failures**
-
-   - Verify API key validity
-   - Check network connectivity
-
-2. **Sync Errors**
-
-   - Review field mapping compatibility
-   - Check for required field values
-   - Verify record ownership permissions
-
-3. **Performance Issues**
-   - Optimize batch sizes
-   - Adjust sync frequencies
-
-## 📈 Performance Optimization
-
-### Best Practices
-
-- Use batch processing for large datasets
-- Implement efficient filtering
-- Monitor system resources
-
-### Monitoring Tools
-
-- Real-time sync status monitoring
-- Detailed error logging
+5. The HubSpot-Dataverse record link is updated to reference the new contact instead of the original lead, ensuring future synchronizations update the correct record.
 
 ## 📸 Gallery
 
 <div align="center">
 
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="45%"></img>
-<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-1.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" Ssrc="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-2.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-3.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-4.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-5.png?raw=true" width="45%"></img>
+<img style="border-radius:10px" src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="45%"></img>
 
 </div>
 
@@ -304,7 +115,7 @@ By using this integrator, you acknowledge that:
 ## 📞 Contact Information
 
 **Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal  
-**Email**: info@novalogica.pt  
+**Email**: [support@novalogica.pt](mailto:support@novalogica.pt) 
 **Website**: [novalogica.pt](https://novalogica.pt)  
 **LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
 
