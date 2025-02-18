@@ -88,9 +88,20 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 <img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-7.png?raw=true" width="100%"></img>
 </div>
 
-## ⚙️ Advanced Configuration
+## ⚙️ Import/Export Functionality
+
+Save time by exporting and importing your configurations between environments. You can:
+- Export all table sync configurations at once
+- Export individual table sync configurations
+- Import configurations into any Dynamics 365 environment
+
+This feature is particularly useful for:
+- Migrating configurations from development to production environments
+- Creating backups of your sync settings
+- Maintaining consistent configurations across multiple instances
 
 ### Table Sync JSON Example
+Below is an example of an exported table sync configuration that can be imported into the system:
 
 ```json
 {
