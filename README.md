@@ -21,8 +21,8 @@
 ## 🎯 Overview
 
 Our HubSpot Integrator for Dynamics 365 is designed to streamline and optimize your processes by enabling seamless data synchronization
-between Dataverse and HubSpot. Unlike standard offerings, our solution offers unmatched flexibility and customization, allowing you to sync
-any tables, standard or custom, and create custom mappings, supporting any data type columns. Whether you need one-way or two-way
+between Dataverse and HubSpot. Unlike other offerings, our solution offers unmatched flexibility and customization, allowing you to sync
+any table, standard or custom, and create custom mappings, supporting any data type columns. Whether you need one-way or two-way
 synchronization, our intuitive interface ensures a quick and easy setup.
 
 ## 🌟 Key Features
@@ -36,6 +36,7 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 - **Secure Architecture**: Self-contained solution with no external dependencies
 - **Performance Optimization**: Intelligent batching and parallel processing for large datasets
 - **Intuitive Setup**: User-friendly interface for quick and easy configuration.
+- **Filter-Based Sync**: Apply **custom filters** to control which records are included in each table sync, ensuring only relevant data is processed.
 
 ### Business Benefits
 
@@ -195,6 +196,7 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 - Real-time sync status monitoring
 - Detailed error logging
 
+
 ## 📞 Support
 
 ### Contact Information
@@ -216,6 +218,17 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 <img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-6.png?raw=true" width="45%"></img>
 
 </div>
+
+---
+
+## ⚠️ Disclaimer
+
+> **Warning**
+> This solution is provided **as-is**, without any warranties or guarantees. While we may provide support and updates at our discretion, we do not guarantee maintenance, issue resolution, or compatibility with future versions of Dynamics 365 or HubSpot.
+
+By using this integrator, you acknowledge that:
+- **novalogica is not responsible** for any issues, malfunctions, or data inconsistencies that may arise
+- We recommend testing in a **non-production environment** before deploying to live systems
 
 ---
 Made with ❤️ by [novalogica](https://novalogica.pt) in Porto, Portugal
