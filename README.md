@@ -274,15 +274,6 @@ The system implements robust error management:
 - Real-time sync status monitoring
 - Detailed error logging
 
-## 📞 Support
-
-### Contact Information
-
-**Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal  
-**Email**: info@novalogica.pt  
-**Website**: [novalogica.pt](https://novalogica.pt)  
-**LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
-
 ## 📸 Gallery
 
 <div align="center">
@@ -307,6 +298,15 @@ By using this integrator, you acknowledge that:
 
 - **novalogica is not responsible** for any issues, malfunctions, or data inconsistencies that may arise
 - We recommend testing in a **non-production environment** before deploying to live systems
+
+---
+
+## 📞 Contact Information
+
+**Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal  
+**Email**: info@novalogica.pt  
+**Website**: [novalogica.pt](https://novalogica.pt)  
+**LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
 
 ---
 
