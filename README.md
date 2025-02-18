@@ -53,7 +53,6 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 - Microsoft Dynamics 365 environment
 - HubSpot account with API access (Marketing, Sales, or Service Hub)
 
-
 ## 🔐 Security Roles
 
 ### Required Roles
@@ -69,11 +68,13 @@ This ensures proper access control and maintains system security while allowing 
 ### Role Permissions
 
 The [ADMIN] - HubSpot Integrator App role includes necessary permissions for:
+
 - Configuring sync settings
 - Managing table mappings
 - Monitoring sync status
 - Viewing error logs
 - Importing/Exporting configurations
+
 ## 🚀 Quick Start Guide
 
 ### 1. Installation
@@ -112,16 +113,22 @@ The [ADMIN] - HubSpot Integrator App role includes necessary permissions for:
 ## ⚙️ Import/Export Functionality
 
 Save time by exporting and importing your configurations between environments. You can:
+
 - Export all table sync configurations at once
 - Export individual table sync configurations
 - Import configurations into any Dynamics 365 environment
 
 This feature is particularly useful for:
+
 - Migrating configurations from development to production environments
 - Creating backups of your sync settings
 - Maintaining consistent configurations across multiple instances
+<div align="center">
+<img src="https://github.com/novalogica/hubspot-integrator-for-dynamics-365/blob/main/screenshots/HubSpot-Integrator-8.png?raw=true" width="100%"></img>
+</div>
 
 ### Table Sync JSON Example
+
 Below is an example of an exported table sync configuration that can be imported into the system:
 
 ```json
@@ -228,7 +235,6 @@ Below is an example of an exported table sync configuration that can be imported
 - Real-time sync status monitoring
 - Detailed error logging
 
-
 ## 📞 Support
 
 ### Contact Information
@@ -259,8 +265,10 @@ Below is an example of an exported table sync configuration that can be imported
 > This solution is provided **as-is**, without any warranties or guarantees. While we may provide support and updates at our discretion, we do not guarantee maintenance, issue resolution, or compatibility with future versions of Dynamics 365 or HubSpot.
 
 By using this integrator, you acknowledge that:
+
 - **novalogica is not responsible** for any issues, malfunctions, or data inconsistencies that may arise
 - We recommend testing in a **non-production environment** before deploying to live systems
 
 ---
+
 Made with ❤️ by [novalogica](https://novalogica.pt) in Porto, Portugal
