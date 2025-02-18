@@ -53,6 +53,27 @@ synchronization, our intuitive interface ensures a quick and easy setup.
 - Microsoft Dynamics 365 environment
 - HubSpot account with API access (Marketing, Sales, or Service Hub)
 
+
+## 🔐 Security Roles
+
+### Required Roles
+
+To use the HubSpot Integrator app, users must have one of the following security roles:
+
+- `System Administrator`
+- `System Customizer`
+- `[ADMIN] - HubSpot Integrator App `
+
+This ensures proper access control and maintains system security while allowing authorized users to configure and manage the integration.
+
+### Role Permissions
+
+The [ADMIN] - HubSpot Integrator App role includes necessary permissions for:
+- Configuring sync settings
+- Managing table mappings
+- Monitoring sync status
+- Viewing error logs
+- Importing/Exporting configurations
 ## 🚀 Quick Start Guide
 
 ### 1. Installation
