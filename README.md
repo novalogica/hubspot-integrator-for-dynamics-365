@@ -200,6 +200,48 @@ Below is an example of an exported table sync configuration that can be imported
 }
 ```
 
+## ⚠️ Important Notes
+
+### Integration Guidelines
+
+- **Record Deletion**: The integrator does not synchronize record deletions between HubSpot and Dataverse. Only create and update operations are supported.
+
+### Lead Qualification Process
+
+When a HubSpot contact record synchronizes with a Dynamics 365 lead, an automated qualification workflow is initiated:
+
+1. **Contact Record Creation**
+
+   - The system creates a new Dataverse contact record, mapping all relevant HubSpot properties based on your configured attribute mappings. If it's an initial sync, only the essential fields are transferred.
+
+2. **Association Processing**
+
+   - If the sync is not marked as initial and initial sync is completed, all HubSpot associations are mapped to corresponding Dataverse relationships for the new contact.
+
+3. **Status Conversion**
+
+   - The system processes any status-related fields according to your configured status mappings between HubSpot and Dataverse.
+
+4. **Lead Qualification**
+   The original Dataverse lead is qualified using the following settings:
+
+   - Status is set to Qualified (Status Code: 2)
+   - The newly created contact is set as the target contact
+   - A new opportunity is automatically created
+   - Existing campaign associations are preserved
+
+5. **Record Link Updates**
+   The HubSpot-Dataverse record link is updated to reference the new contact instead of the original lead, ensuring future synchronizations update the correct record.
+
+### Error Handling
+
+The system implements robust error management:
+
+- Each step is logged in the integration log with detailed status information
+- If any step fails, the system maintains the original record link with error details
+- Failed qualifications are marked as "Partially Successful" in the integration log
+- The integration continues to attempt synchronization of other records even if one fails
+
 ## 🔍 Troubleshooting Guide
 
 ### Common Issues
