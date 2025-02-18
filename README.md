@@ -47,11 +47,11 @@ Our HubSpot Integrator for Dynamics 365 **(Beta)** is designed to streamline and
 
 For detailed information about setup, configuration, and usage, please refer to our [Wiki Documentation](/wiki/Home), which includes:
 
-- [Detailed Quick Start Guide](/wiki/Quick-Start-Guide)
-- [Security Roles and Permissions ](/wiki/Security-Roles)
-- [Import/Export Functionality](/wiki/Import-Export-Guide)
-- [Troubleshooting Guide](/wiki/Troubleshooting-Guide)
-- [Performance Optimization Tips](/wiki/Performance-Optimization)
+- [Detailed Quick Start Guide](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/wiki/Quick-Start-Guide)
+- [Security Roles and Permissions](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/wiki/Security-Roles)
+- [Import/Export Functionality](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/wiki/Import-Export-Guide)
+- [Troubleshooting Guide](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/wiki/Troubleshooting-Guide)
+- [Performance Optimization Tips](https://github.com/novalogica/hubspot-integrator-for-dynamics-365/Performance-Optimization)
 
 ## ⚠️ Important Notes
 
@@ -115,8 +115,11 @@ By using this integrator, you acknowledge that:
 ## 📞 Contact Information
 
 **Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal  
-**Email**: [support@novalogica.pt](mailto:support@novalogica.pt) 
+
+**Email**: [support@novalogica.pt](mailto:support@novalogica.pt)
+
 **Website**: [novalogica.pt](https://novalogica.pt)  
+
 **LinkedIn**: [novalogica](https://linkedin.com/company/novalogica)
 
 ---
