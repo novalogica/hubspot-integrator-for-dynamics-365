@@ -45,13 +45,13 @@ Our HubSpot Integrator for Dynamics 365 **(Beta)** is designed to streamline and
 
 ## 📑 Documentation
 
-For detailed information about setup, configuration, and usage, please refer to our [Wiki Documentation](./wiki/Home.md), which includes:
+For detailed information about setup, configuration, and usage, please refer to our [Wiki Documentation](/wiki/Home), which includes:
 
-- [Detailed Quick Start Guide](./wiki/Quick-Start-Guide.md)
-- [Security Roles and Permissions ](./wiki/Security-Roles.md)
-- [Import/Export Functionality](./wiki/Import-Export-Guide.md)
-- [Troubleshooting Guide](./wiki/Troubleshooting-Guide.md)
-- [Performance Optimization Tips](./wiki/Performance-Optimization.md)
+- [Detailed Quick Start Guide](/wiki/Quick-Start-Guide)
+- [Security Roles and Permissions ](/wiki/Security-Roles)
+- [Import/Export Functionality](/wiki/Import-Export-Guide)
+- [Troubleshooting Guide](/wiki/Troubleshooting-Guide)
+- [Performance Optimization Tips](/wiki/Performance-Optimization)
 
 ## ⚠️ Important Notes
 
