@@ -1,4 +1,4 @@
-# HubSpot Integrator for Dynamics 365
+# HubSpot Integrator for Dynamics 365 (Beta)
 
 <div align="center">
 
@@ -114,7 +114,7 @@ By using this integrator, you acknowledge that:
 
 ## 📞 Contact Information
 
-**Address**: R. Nossa Sra. Fátima 14, 4420-214 S. Cosme, Porto, Portugal
+### Reach out to us if you need help or have any questions
 
 **Email**: [support@novalogica.pt](mailto:support@novalogica.pt)
 
